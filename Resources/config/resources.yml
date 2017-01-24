@@ -1,0 +1,11 @@
+sylius_resource:
+    resources:
+        viweb.lexicon:
+            classes:
+                model: Viweb\LexiconBundle\Entity\Entry
+                repository: Viweb\LexiconBundle\Repository\EntryRepository
+                form: Viweb\LexiconBundle\Form\Type\EntryType
+            translation:
+                classes:
+                    model: Viweb\LexiconBundle\Entity\EntryTranslation
+                    form: Viweb\LexiconBundle\Form\Type\EntryTranslationType

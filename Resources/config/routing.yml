@@ -1,0 +1,3 @@
+viweb_lexicon_homepage:
+    path:     /
+    defaults: { _controller: ViwebLexiconBundle:Default:index }

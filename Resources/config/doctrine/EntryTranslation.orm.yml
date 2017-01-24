@@ -1,0 +1,22 @@
+Viweb\LexiconBundle\Entity\EntryTranslation:
+    type: entity
+    table: null
+    repositoryClass: Viweb\LexiconBundle\Repository\EntryTranslationRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        term:
+            type: string
+            length: 255
+        definition:
+            type: text
+        firstLetter:
+            type: string
+            length: '1'
+            column: first_letter
+            nullable: true
+    lifecycleCallbacks: {  }

@@ -1,0 +1,14 @@
+viweb_faq:
+    resource: |
+        alias: viweb.lexicon
+        redirect: update
+        except: ['show']
+        section: admin
+        templates: ViwebSystemBundle:Crud
+        grid: viweb_lexicon
+        vars:
+            all:
+                subheader: app.ui.supplier
+            index:
+                icon: 'outline'
+    type: sylius.resource

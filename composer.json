@@ -1,0 +1,13 @@
+{
+    "name": "viweb/lexicon-bundle",
+    "description": "Lexicon bundle for Viweb admin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pierre-Marc David Caron",
+            "email": "pierre-marc@viweb.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

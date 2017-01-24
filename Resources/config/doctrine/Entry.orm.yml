@@ -1,0 +1,11 @@
+Viweb\LexiconBundle\Entity\Entry:
+    type: entity
+    table: null
+    repositoryClass: Viweb\LexiconBundle\Repository\EntryRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    lifecycleCallbacks: {  }
