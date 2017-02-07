@@ -8,6 +8,9 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('ViwebLexiconBundle:Default:index.html.twig');
+        $terms = $this->get('viweb.repository.lexicon')->findAll();
+        return $this->render('ViwebLexiconBundle:Default:index.html.twig', [
+            'terms' => $terms
+        ]);
     }
 }
