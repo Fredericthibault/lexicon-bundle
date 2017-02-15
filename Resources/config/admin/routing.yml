@@ -13,7 +13,7 @@ viweb_admin_lexicon:
                 icon: 'outline'
     type: sylius.resource
 
-viweb_admin_lexicon+update:
+viweb_admin_lexicon_update:
     path: /lexicons/{id}/edit
     methods: [GET, POST]
     defaults:
